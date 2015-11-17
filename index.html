@@ -7,18 +7,11 @@
         <!-- TODO: Add proper head tag to provide a page description for search
              engines. -->
         <title>API Superstore</title>
-        <!-- Bootstrap CSS Framework -->
-        <!-- You can remove the ``link`` tags below if you don't want to use
-             Bootstrap with your site. If you choose to use Bootstrap, be sure
-             to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
 
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
-        <!-- End Bootstrap CSS Framework -->
+        <!-- custom style sheet place after bootstrap to apply extra styling -->
+        <link rel="stylesheet" href="main.css" type="text/css">
 
         <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
              support bookmarking. -->
@@ -27,28 +20,104 @@
 
     </head>
     <body>
-        <!-- Note: If you do not see a lamp icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how Bootstrap is linked to this page. -->
-        <h1><span class="glyphicon glyphicon-lamp"></span> Hello World!</h1>
-        <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
 
-        <!-- TODO: Create an area to put the explainer video. -->
+      <!-- nav with login sign up and contact. sign-up and contact link to their #id's -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <ul class="nav nav-pills pull-right">
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#sign-up">Log In</a></li>
+              <li class="active"><a href="#sign-up">Sign Up</a></li>
+            </ul>
+          </div>
+        </div>
 
-        <!-- TODO: Create an area to put the long product description. -->
+        <div class="row">
+          <div class="jumbotron">
+            <h1>API Superstore</h1>
+            <h4>Point. Click. Code.</h4>
+          </div>
+        </div>
 
-        <!-- TODO: Create an area to put customer testimonials. -->
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <p>
+                Here at the API Superstore, we've partnered with API providers across the web to bring you easy access to the hottest 3rd-party services and features. From e-commerce to maps, the API Superstore has all of the services that your customers have come to expect.
+              </p>
+              <p>
+                We do all of the leg-work to build, maintain, and update a world class catalog of features and services, so save yourself the headache of tracking down APIs and sign up today.
+              </p>
+              <button class="btn">Sign Up</button>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/L48g1ZWLMdo" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
 
-        <!-- TODO: Create an area to show features. -->
+          <div class="row">
+            <div class="col-xs-12">
+              <h3>We're proud to offer:</h3>
+            </div>
+            <div class="col-xs-12">
+              <ul>
+                <li>Easy access to the largest collection of APIs on the web.</li>
+                <li>Reviews and testimonials of each API and service</li>
+                <li>A constantly updating library of the best APIs</li>
+                <li>Convenient and simple to use UI. You can always find what you're looking for.</li>
+              </ul>
+            </div>
+          </div>
 
-        <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
+          <div class="row">
+            <div class="col-xs-12 col-sm-4">
+              <p> "This is the best website ever! I have really admired the way the API Superstore team has created a truly divine interface for browsing all that information that's out there online for free."</p>
+              <p> -Ron Ronaldson, Gizmodo</p>
+            </div>
 
-        <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
+            <div class="col-xs-12 col-sm-4">
+              <p> "With API Superstore I'm able to more easily keep up with the churn of information that makes application development so difficult. Please don't stop the rocking, you make my world so much happier!"</p>
+              <p> -Macy Gray, Musician</p>
+            </div>
 
-        <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
+            <div class="col-xs-12 col-sm-4">
+              <p> "Once again, I'm blown away by the amazing offerings of the API Superstore. It's the best place to find the APIs you're looking for and new ones you've never heard of, yet."</p>
+              <p> -Afi C. Clark, Entrepreneur</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12">
+              <h3>Sign up today and your first API is on the house</h3>
+              <!-- put an html form here with fields for:
+                    *email
+                    *username
+                    *password  -->
+
+            </div>
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <h4>We'd love to hear from you:</h4>
+              <p>P: 206.555.1234</p>
+              <p>E: info@apisuperstore.com</p>
+              <p>Seattle, Washington. USA.</p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6">
+              <h4>And we'd love to connect even more.</h4>
+              <!-- social icons go here:
+                      *twitter
+                      *facebook
+                      *instagram
+                      *github?
+            -->
+            </div>
+          </div>
+
+          </div>
+        </div>
     </body>
 </html>
