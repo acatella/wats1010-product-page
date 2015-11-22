@@ -95,7 +95,7 @@ body .container .main-info {
   display: inline-block;
 }
 body .container .button-container {
-  text-align: center;
+  text-align: center; 
   display: inline-block;
   float: left;
 }
