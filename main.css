@@ -2,3 +2,199 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 /* Mock-up: https://moqups.com/acatella/eRZYI81S/p:a9a1d5d15 */
+
+/*To Do*/
+
+/*
+
+-format the html form
+  -add a focus
+  -style it nicely (find a good web style and copy it)
+  -placeholder text in input fields
+
+-create a consistent color scheme for different sections
+  -maybe try orange
+
+-add a background image to the jumbotron
+  -try overlaying a mask to stylize/distort into B/W
+
+-add social icons
+
+-style the buttons
+
+-remove testimonial border for mobile display
+
+-add href links to top nav
+
+-find a nice font combo
+  -1 for headers 1 for body
+
+-format mail link so it generates an email
+-format phone number link for mobile
+
+-create and add a favicon/logo
+
+-make sure margins are consistent on mobile
+-make sure all divs are centered on mobile
+
+-fix the 'sign up' button in the main content section
+  -give it 12 column attribute for devices smaller than breakpoint, 6 col above
+
+*/
+
+/***********************\
+*******\ GENERAL /*******
+\***********************/
+
+body .container li.active a{
+  color: #fff;
+}
+/***********************\
+*******\ NAV-BAR /*******
+\***********************/
+
+.container .nav li a{
+  color: #000;
+  border-radius: 30px;
+  padding: 8px 12px;
+}
+
+/***********************\
+******\ JUMBOTRON /******
+\***********************/
+
+/*is vh the best thing to use for the jumbotron styling?*/
+
+body .container .jumbotron {
+  height: 75vh;
+  padding: 8px;
+  border-radius: 0;
+  margin: 0;
+}
+
+body .container .jumbotron h1 {
+    margin-top: 20vh;
+    margin-bottom: 35px;
+}
+
+
+body .container .jumbotron h1,body .container .jumbotron h4 {
+  text-align: center;
+}
+
+
+/***********************\
+ ****\ MAIN CONTENT /****
+\***********************/
+
+body .container .main {
+  padding: 40px 15px;
+}
+
+body .container .main-info {
+  display: inline-block;
+}
+body .container .button-container {
+  text-align: center;
+  display: inline-block;
+  float: left;
+}
+
+/***********************\
+  ****\ FEATURES /****
+\***********************/
+
+body .container .center {
+  text-align: center;
+}
+
+body .container .feature-list {
+  padding-bottom: 40px;
+}
+body .container .feature-list ul {
+  display: inline-block;
+  text-align: left;
+}
+
+body .container .feature-list ul li {
+  margin: 8px 0;
+}
+
+/***********************\
+****\ TESTIMONIALS /****
+\***********************/
+
+body .container .testimonials .middle {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+body .container .testimonials {
+  margin-bottom: 40px;
+}
+
+
+/***********************\
+  ****\ SIGN-UP /****
+\***********************/
+
+body .container #sign-up {
+  margin-bottom: 40px;
+}
+
+#sign-up h3 {
+  margin-bottom: 30px;
+}
+body .container .sign-up-form {
+  display: inline-block;
+  text-align:left;
+}
+
+body .container .sign-up-form ul {
+  list-style: none;
+}
+
+body .container .sign-up-form ul p {
+  margin-right: 10px;
+}
+
+body .container .sign-up-form ul input {
+  float: right;
+}
+
+body .container .sign-up-form ul p, body .container .sign-up-form ul input {
+  display: inline-block;
+}
+
+/***********************\
+  ****\ CONTACT /****
+\***********************/
+
+#contact {
+  margin-bottom: 50px;
+}
+
+body .container .social ul{
+  list-style: none;
+}
+
+body .container .social h4 {
+  margin-bottom: 15px;
+}
+body .container li.social-link {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+body .container div.contact-info {
+  display: inline-block;
+  text-align: left;
+}
+
+body .container div.contact-info h4 {
+  margin-bottom: 15px;
+}
+
+body .container div.contact-info p {
+  margin: 0;
+}

@@ -23,45 +23,56 @@
 
       <!-- nav with login sign up and contact. sign-up and contact link to their #id's -->
       <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <ul class="nav nav-pills pull-right">
-              <li><a href="#contact">Contact</a></li>
-              <li><a href="#sign-up">Log In</a></li>
-              <li class="active"><a href="#sign-up">Sign Up</a></li>
-            </ul>
-          </div>
-        </div>
+
 
         <div class="row">
           <div class="jumbotron">
+            <div class="row">
+              <div class="col-xs-12">
+                <ul class="nav nav-pills pull-right">
+                  <li><a href="#contact">Contact</a></li>
+                  <li><a href="#sign-up">Log In</a></li>
+                  <li class="active"><a href="#sign-up">Sign Up</a></li>
+                </ul>
+              </div>
+            </div>
             <h1>API Superstore</h1>
             <h4>Point. Click. Code.</h4>
           </div>
         </div>
 
           <div class="row">
-            <div class="col-xs-12 col-sm-6">
+
+            <div class="col-xs-12 col-sm-6 main">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/L48g1ZWLMdo" allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 main main-info">
               <p>
                 Here at the API Superstore, we've partnered with API providers across the web to bring you easy access to the hottest 3rd-party services and features. From e-commerce to maps, the API Superstore has all of the services that your customers have come to expect.
               </p>
               <p>
                 We do all of the leg-work to build, maintain, and update a world class catalog of features and services, so save yourself the headache of tracking down APIs and sign up today.
               </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 button-container pull-right">
               <button class="btn">Sign Up</button>
             </div>
-            <div class="col-xs-12 col-sm-6">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/L48g1ZWLMdo" allowfullscreen></iframe>
-              </div>
-            </div>
+
+
+
+
+
           </div>
 
-          <div class="row">
-            <div class="col-xs-12">
+          <div class="row center">
+            <div class="col-xs-12 center">
               <h3>We're proud to offer:</h3>
             </div>
-            <div class="col-xs-12">
+            <div class="col-xs-12 feature-list">
               <ul>
                 <li>Easy access to the largest collection of APIs on the web.</li>
                 <li>Reviews and testimonials of each API and service</li>
@@ -71,13 +82,13 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="row testimonials">
             <div class="col-xs-12 col-sm-4">
               <p> "This is the best website ever! I have really admired the way the API Superstore team has created a truly divine interface for browsing all that information that's out there online for free."</p>
               <p> -Ron Ronaldson, Gizmodo</p>
             </div>
 
-            <div class="col-xs-12 col-sm-4">
+            <div class="col-xs-12 col-sm-4 middle">
               <p> "With API Superstore I'm able to more easily keep up with the churn of information that makes application development so difficult. Please don't stop the rocking, you make my world so much happier!"</p>
               <p> -Macy Gray, Musician</p>
             </div>
@@ -88,32 +99,53 @@
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-xs-12">
+          <div class="row sign-up" id="sign-up">
+            <div class="col-xs-12 center">
               <h3>Sign up today and your first API is on the house</h3>
-              <!-- put an html form here with fields for:
-                    *email
-                    *username
-                    *password  -->
-
+            <div class="col=xs-12">
+              <form action="#" method="post" class="sign-up-form">
+                <ul>
+                  <li>
+                    <p>Email:</p><input type="text" name="email">
+                  </li>
+                  <li>
+                    <p>Username:</p> <input type="text" name="username">
+                  </li>
+                  <li>
+                    <p>Password:</p><input type="text" name="password">
+                  </li>
+                </ul>
+              </form>
             </div>
 
-          <div class="row">
-            <div class="col-xs-12 col-sm-6">
+            </div>
+          </div>
+
+          <div class="row" id="contact">
+            <div class="col-xs-12 col-sm-6 center">
+            <div class="contact-info">
               <h4>We'd love to hear from you:</h4>
               <p>P: 206.555.1234</p>
               <p>E: info@apisuperstore.com</p>
               <p>Seattle, Washington. USA.</p>
             </div>
+            </div>
 
-            <div class="col-xs-12 col-sm-6">
-              <h4>And we'd love to connect even more.</h4>
-              <!-- social icons go here:
-                      *twitter
-                      *facebook
-                      *instagram
-                      *github?
-            -->
+            <div class="col-xs-12 col-sm-6 center social">
+              <h4>And we'd love to connect even more:</h4>
+              <div class="col-xs-12">
+                <ul>
+                  <li class="social-link">
+                      <a href="http://www.facebook.com"><img height="35px" width="35px" src="assets/icons/facebook.png" alt="Facebook"></a>
+                  </li>
+                  <li class="social-link">
+                    <a href="http://www.twitter.com"><img height="35px" width="35px" src="assets/icons/twitter.png" alt="Facebook"></a>
+                  </li>
+                  <li class="social-link">
+                    <a href="http://www.instagram.com"><img height="35px" width="35px" src="assets/icons/instagram.png" alt="Facebook"></a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
 
