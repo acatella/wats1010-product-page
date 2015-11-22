@@ -40,6 +40,7 @@
 -fix the 'sign up' button in the main content section
   -give it 12 column attribute for devices smaller than breakpoint, 6 col above
 
+-separate the testimonials on mobile by moving the border on .middle to top and bottom
 */
 
 /***********************\
