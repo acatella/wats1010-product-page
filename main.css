@@ -47,17 +47,82 @@
 *******\ GENERAL /*******
 \***********************/
 
-body .container li.active a{
+body, html{
+  max-width: 100%;
+  overflow-x: hidden;
+
+}
+body .container-fluid li.active a{
   color: #fff;
 }
+
+body .container {
+  background: #fff;
+}
+
+body .content-cover {
+  background: #fff;
+  width: 100%;
+}
+
+.back {
+  z-index: -100;
+}
+
+.way-back {
+  z-index: -150;
+}
+
+body .bg-mask {
+  background: rgba(211,211,211,.6);
+  width: 100%;
+}
+
+body .bg-full, .bg-mask {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-size: cover;
+  z-index: -10;
+}
+
+body .bg-full {
+  background-image: url("assets/bg/superstore1.jpg");
+}
+
+body .center {
+  text-align: center;
+}
+
 /***********************\
 *******\ NAV-BAR /*******
 \***********************/
 
-.container .nav li a{
-  color: #000;
+
+
+.container-fluid .nav li a{
   border-radius: 30px;
   padding: 8px 12px;
+  color: #fff;
+}
+
+ #nav-active {
+  background: #fff;
+  border-bottom: 5px solid rgba(245, 146, 55, .8);
+  color: #000;
+}
+
+#nav-active a {
+  color: #000;
+}
+
+#nav li a {
+  border-radius: 0;
+}
+
+#nav li a:hover {
+  background: transparent;
+
 }
 
 /***********************\
@@ -66,22 +131,32 @@ body .container li.active a{
 
 /*is vh the best thing to use for the jumbotron styling?*/
 
-body .container .jumbotron {
+body .container-fluid .jumbotron {
   height: 75vh;
-  padding: 8px;
+  max-height: 550px;
+  padding: 0 8px 8px;
   border-radius: 0;
   margin: 0;
+  position: relative;
+  background: transparent;
+  color: #fff;
 }
 
-body .container .jumbotron h1 {
-    margin-top: 20vh;
+body .container-fluid .jumbotron .jumbo-content {
     margin-bottom: 35px;
+    position: fixed;
+    top: 20vh;
+    z-index: -9;
+    display: inline-block;
 }
 
 
-body .container .jumbotron h1,body .container .jumbotron h4 {
-  text-align: center;
+body .jumbo-cover {
+  background: rgba(255,255,255,0);
+  padding: 0;
 }
+
+
 
 
 /***********************\
@@ -105,9 +180,6 @@ body .container .button-container {
   ****\ FEATURES /****
 \***********************/
 
-body .container .center {
-  text-align: center;
-}
 
 body .container .feature-list {
   padding-bottom: 40px;
