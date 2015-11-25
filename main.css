@@ -114,6 +114,18 @@ body .button-container button.btn:hover {
   font-weight: bold;
 }
 
+.div-shadow {
+  box-shadow: 0px 6px rgba(52,73,17,.15);
+}
+
+.form-input {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1) inset;
+  border: 1px solid rgba(245, 146, 55, 1);
+}
+
+.form-input:focus {
+  background: rgb(247,247,247);
+}
 
 /***********************\
 *******\ COLOR /*******
@@ -300,6 +312,10 @@ body .container .sign-up-form ul p, body .container .sign-up-form ul input {
   ****\ CONTACT /****
 \***********************/
 
+ul.social-list {
+  list-style:none;
+}
+
 #contact {
   margin-bottom: 50px;
 }
@@ -311,7 +327,8 @@ body .container .social ul{
 body .container .social h4 {
   margin-bottom: 15px;
 }
-body .container li.social-link {
+
+li.social-link {
   display: inline-block;
   margin-right: 10px;
 }
