@@ -168,6 +168,34 @@ body .fadeIn-third {
 }
 
 /***********************\
+ ****\ RESPONSIVE /*****
+\***********************/
+
+@media screen and (max-width: 760px) {
+  div.middle {
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .form-input {
+    max-width: 120px;
+  }
+
+  div.contact-info {
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/***********************\
 *******\ NAV-BAR /*******
 \***********************/
 
@@ -294,7 +322,7 @@ body .container .feature-list ul li img {
 ****\ TESTIMONIALS /****
 \***********************/
 
-body .container .testimonials .middle {
+.middle {
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
 }
@@ -306,6 +334,7 @@ body .container .testimonials {
 .gray {
   background:rgba(247,247,247,1);
 }
+
 
 
 /***********************\
@@ -347,6 +376,7 @@ body .container .sign-up-form ul p, body .container .sign-up-form ul input {
 
 ul.social-list {
   list-style:none;
+  padding-top: 20px;
 }
 
 #contact {
@@ -363,19 +393,39 @@ body .container .social h4 {
 
 li.social-link {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 body .container div.contact-info h4 {
   margin-bottom: 15px;
 }
 
-body .container div.contact-info p {
-  margin: 0;
-}
-
 .contact-info {
   border-right: 1px solid #ccc;
+}
+
+.contact-info div p {
+  margin: 10px;
+}
+
+.contact-icon {
+  margin-right: 15px;
+}
+
+.contact-icon-phone {
+  margin-right: 12px;
+}
+
+.contact-icon-pin {
+  margin-right: 14px;
+}
+
+.link {
+  color: #000;
+}
+
+a.link:hover {
+  color: rgba(245, 146, 55, .8);
 }
 
 .inline-block {
