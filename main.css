@@ -47,11 +47,7 @@ body .content-cover {
 }
 
 body .bg-mask {
-<<<<<<< HEAD
-  background: rgba(211,211,211,.4);
-=======
-  background: rgba(0,0,0,.2);
->>>>>>> master
+  background: rgba(0,0,0,.25);
   width: 100%;
 }
 
@@ -64,7 +60,7 @@ body .bg-full, .bg-mask {
 }
 
 body .bg-full {
-  background-image: url("assets/bg/superstore1.jpg");
+  background-image: url("assets/bg/superstore-bw.jpg");
 }
 
 body .center {
@@ -360,7 +356,7 @@ body .container .sign-up-form ul p, body .container .sign-up-form ul input {
 }
 
 .btn-row {
-  margin-top: 10px;
+  margin-top: 10 px;
 }
 /***********************\
   ****\ CONTACT /****
