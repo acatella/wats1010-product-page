@@ -27,6 +27,10 @@ h1,h2,h3,h4,h5,h6 {
   text-transform: uppercase;
 }
 
+body h2 {
+  margin-top: 0;
+}
+
 body .container-fluid li.active a{
   color: #fff;
 }
